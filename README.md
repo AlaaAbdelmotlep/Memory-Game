@@ -1,19 +1,18 @@
-Memory Game Project
+# Memory Game
 
-What is the Memory Game
-It is a game based on the idea of visual memory as they call it psychology.
+Game based on the idea of visual memory as they call it psychology.
 
-Challenge
-Match cards in less time with less moves.
+## Rules of Memory Game
 
-Instructions
-Click on a card
-It is imperative to remain reminiscent of the shape of the card
-Try to match card in less move and time
+- You will start by flipping over one card
+- If the next card you flip matches, a pop up alert notifies you and you get +1 to your score
+- These cards then disappear
+- If the next card you flip does not match, a pop up alert notifies you of this and the cards flip back
+- The game continues until you match all the cards on the board
 
-How I built the Memory Game
-I used the concept of Dom in js with HTML and some style from CSS
-Created a deck of cards that shuffles when game is start or refresh
-Created a counter to count the number of moves made by player and timer to know the duration of a play
-Added effects to cards when they match and are unmatched
-create a Congratulation modal when player wins game
+## Technical 
+This project consists of the following assets:
+
+- **index.html** - contains the game's html structure.
+- **style.css** - contains the game's board styling
+- **myscript.js** - contains all the board actions & logic.
